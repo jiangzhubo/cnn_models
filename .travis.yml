@@ -1,2 +1,2 @@
 language: python
-script: fine_tune_all.py
+script: python fine_tune_all.py
