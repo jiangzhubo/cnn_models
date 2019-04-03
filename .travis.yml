@@ -1,0 +1,4 @@
+language: python
+sudo: required
+before_install: sudo pip install foo
+script: fine_tune_all.py
