@@ -3,6 +3,6 @@ python:
   - "3.6"
 before_install:
 - sudo apt-get update
-- sudo apt-get install python3.6
+- sudo apt-get install python3
 script: pip3 install -r -U requirements.txt
 
