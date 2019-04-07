@@ -2,7 +2,6 @@ language: python3.6
 python: 
   - "3.6"
 before_install:
-- sudo apt-get update
-- sudo apt-get install python3
+- pyenv global system 3.6
 script: pip3 install -r -U requirements.txt
 
