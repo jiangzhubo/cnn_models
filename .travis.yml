@@ -3,5 +3,6 @@ python:
   - "3.6"
 before_install:
 - pyenv global system 3.6
-script: pip3 install -r  requirements.txt
+script: pip install -r  requirements.txt
+
 
